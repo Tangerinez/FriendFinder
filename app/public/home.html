@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home Page</title>
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friend Finder</title>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4 jumbotron-title">Friend Finder</h1>
-        <hr />
-        <p class="lead jumbotron-smaller-text">
-          Take this survey to find your most compatible friend!
-        </p>
-        <button type="button" class="btn btn-danger">Go to Survey</button>
+    <div class="container">
+      <div class="row mt-5 text-center">
+        <div class="col-md-12">
+          <h2>Friend Finder</h2>
+        </div>
       </div>
-    </div>
-    <div class="about-friend-finder-container">
-      <h4 class="about-title">About Friend Finder</h4>
-      <p class="about-paragraph">
-        Friend Finder is a full-stack application that generates an ideal friend
-        match for the user based off of their answers to a survey. This
-        application will displays the name and picture of the user with the best
-        overall match.
-      </p>
+      <div class="row mt-5 justify-content-center">
+        <div id="jumbotron" class="jumbotron">
+          <h1 class="display-4">Find Your Friend</h1>
+          <p class="lead">
+            <b>
+              Friend Finder is an application that matches you with your next
+              friend based off of user preferences.
+            </b>
+            <br />
+            <b>
+              Take the survey to find out who your next friend is!
+            </b>
+          </p>
+          <hr class="my-4" />
+          <p>
+            Press the button below to start
+          </p>
+          <a class="btn btn-primary btn-lg" href="/survey" role="button"
+            >Find a Friend</a
+          >
+        </div>
+      </div>
+      <div class="row mt-5"></div>
+      <div class="row mt-5"></div>
+      <div class="row mt-5"></div>
+      <div class="row mt-5"></div>
+      <div class="row mt-5"></div>
+      <div class="row mt-5"></div>
     </div>
   </body>
 </html>
